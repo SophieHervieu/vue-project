@@ -26,6 +26,11 @@ const router = createRouter({
             name: 'Exo-Interpolation',
             component: () => import('../views/exo/TextInterpolationExo.vue')
         },
+        {
+            path: '/exo-method-execution',
+            name: 'Exo-Method-Execution',
+            component: () => import('../views/exo/MethodExecutionComp.vue')
+        },
     ]
 });
 

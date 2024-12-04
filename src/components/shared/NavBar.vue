@@ -6,10 +6,10 @@
         <a class="navbar-brand text-white">Vue project</a>
       </router-link>
 
-      <!-- Bouton pour navigation mobile -->
+      <!-- Bouton pour navigation mobile 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
 
       <!-- Partie droite : liens -->
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -50,7 +50,9 @@
               <router-link class="nav-link active" aria-current="page" to="/exo-interpolation">
                 <li><a class="dropdown-item">Text Interpolation</a></li>
               </router-link>
-              <li><a class="dropdown-item" href="#">Méthodes</a></li>
+              <router-link class="nav-link active" aria-current="page" to="/exo-method-execution">
+                <li><a class="dropdown-item" href="#">Méthodes</a></li>
+              </router-link>
               <li><a class="dropdown-item" href="#">Inline Templating (v-html)</a></li>
               <li><a class="dropdown-item" href="#">Attribute Binding (v-bind)</a></li>
               <li><a class="dropdown-item" href="#">Event Binding (v-on)</a></li>
