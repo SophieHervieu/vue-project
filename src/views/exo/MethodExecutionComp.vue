@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="p-3">Utilisation des méthodes</h1>
-    <p class="p-4 border rounded-3">{{ random() }}</p>
+    <p class="p-4 border bg-body-tertiary rounded-3">{{ random() }}</p>
   </div>
 </template>
 

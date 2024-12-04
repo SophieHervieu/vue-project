@@ -15,9 +15,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto"> <!-- ms-auto pour aligner à droite -->
           <li class="nav-item">
-            <router-link class="nav-link active" aria-current="page" to="/home">
-              <a class="nav-link active text-white">Accueil</a>
-            </router-link>
+            <router-link class="nav-link active text-white" aria-current="page" to="/home">Accueil</router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,7 +31,9 @@
                 <li><a class="dropdown-item">Text Interpolation</a></li>
               </router-link>
               <li><a class="dropdown-item" href="#">Méthodes et fonctions</a></li>
-              <li><a class="dropdown-item" href="#">Directive V-HTML (Inline Templating)</a></li>
+              <router-link class="nav-link active" aria-current="page" to="/lesson-inline-templating">
+                <li><a class="dropdown-item" href="#">Directive V-HTML (Inline Templating)</a></li>
+              </router-link>
               <li><a class="dropdown-item" href="#">Système de composants</a></li>
               <li><a class="dropdown-item" href="#">Création de composants</a></li>
               <li><a class="dropdown-item" href="#">Comp Comm Props</a></li>
@@ -74,7 +74,9 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end"> <!-- Alignement automatique -->
               <li><a class="dropdown-item" href="#">Liste des TP</a></li>
-              <li><a class="dropdown-item" href="#">TP-Data Binding</a></li>
+              <router-link class="nav-link active" aria-current="page" to="/tp-data-binding">
+                <li><a class="dropdown-item" href="#">TP-Data Binding</a></li>
+              </router-link>
               <li><a class="dropdown-item" href="#">TP-Event Binding</a></li>
               <li><a class="dropdown-item" href="#">TP-Reactivity</a></li>
               <li><a class="dropdown-item" href="#">TP-Dynamic Styling</a></li>
