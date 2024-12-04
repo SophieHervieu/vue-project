@@ -12,7 +12,7 @@ function random () {
   let randomNumber = ref(Math.random());
 
   if (randomNumber.value > 0.5) {
-    return "Le Livre de Boba Fett"
+    return "Le Seigneur des Anneaux"
   } else {
     return "Contes et Légendes Oubliés"
   }
