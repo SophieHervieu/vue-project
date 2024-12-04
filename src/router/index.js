@@ -41,6 +41,11 @@ const router = createRouter({
             name: 'Exo-Method-Execution',
             component: () => import('../views/exo/MethodExecutionComp.vue')
         },
+        {
+            path: '/exo-event-binding',
+            name: 'Exo-Event-Binding',
+            component: () => import('../views/exo/EventBinding.vue')
+        },
         //! ----------------------------TP Views routes ----------------------------
         {
             path: '/tp-data-binding',

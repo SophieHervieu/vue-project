@@ -27,9 +27,7 @@
               <li><a class="dropdown-item" href="#">Installer et utiliser des librairies</a></li>
               <li><router-link class="nav-link active" aria-current="page" to="/lesson-interpolation">Text Interpolation</router-link></li>
               <li><a class="dropdown-item" href="#">Méthodes et fonctions</a></li>
-              <router-link class="nav-link active" aria-current="page" to="/lesson-inline-templating">
-                <li><a class="dropdown-item" href="#">Directive V-HTML (Inline Templating)</a></li>
-              </router-link>
+              <li><router-link class="nav-link active" aria-current="page" to="/lesson-inline-templating">Directive V-HTML (Inline Templating)</router-link></li>
               <li><a class="dropdown-item" href="#">Système de composants</a></li>
               <li><a class="dropdown-item" href="#">Création de composants</a></li>
               <li><a class="dropdown-item" href="#">Comp Comm Props</a></li>
@@ -43,15 +41,11 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end"> <!-- Alignement automatique -->
               <li><a class="dropdown-item" href="#">Liste des exercices</a></li>
-              <router-link class="nav-link active" aria-current="page" to="/exo-interpolation">
-                <li><a class="dropdown-item">Text Interpolation</a></li>
-              </router-link>
-              <router-link class="nav-link active" aria-current="page" to="/exo-method-execution">
-                <li><a class="dropdown-item" href="#">Méthodes</a></li>
-              </router-link>
+              <li><router-link class="nav-link active" aria-current="page" to="/exo-interpolation">Text Interpolation</router-link></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/exo-method-execution">Méthodes</router-link></li>
               <li><a class="dropdown-item" href="#">Inline Templating (v-html)</a></li>
               <li><a class="dropdown-item" href="#">Attribute Binding (v-bind)</a></li>
-              <li><a class="dropdown-item" href="#">Event Binding (v-on)</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/exo-event-binding">Event Binding (v-on)</router-link></li>
               <li><a class="dropdown-item" href="#">Two Way Data Binding (v-model)</a></li>
               <li><a class="dropdown-item" href="#">Compûted Proporties</a></li>
               <li><a class="dropdown-item" href="#">Watchers</a></li>
@@ -70,9 +64,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end"> <!-- Alignement automatique -->
               <li><a class="dropdown-item" href="#">Liste des TP</a></li>
-              <router-link class="nav-link active" aria-current="page" to="/tp-data-binding">
-                <li><a class="dropdown-item" href="#">TP-Data Binding</a></li>
-              </router-link>
+              <li><router-link class="nav-link active" aria-current="page" to="/tp-data-binding">TP-Data Binding</router-link></li>
               <li><a class="dropdown-item" href="#">TP-Event Binding</a></li>
               <li><a class="dropdown-item" href="#">TP-Reactivity</a></li>
               <li><a class="dropdown-item" href="#">TP-Dynamic Styling</a></li>
