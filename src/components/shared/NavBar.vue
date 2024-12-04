@@ -2,9 +2,7 @@
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
       <!-- Partie gauche : Vue Project -->
-      <router-link class="nav-link active" aria-current="page" to="/home">
-        <a class="navbar-brand text-white">Vue project</a>
-      </router-link>
+      <router-link class="nav-link active text-white" aria-current="page" to="/home">Vue project</router-link>
 
       <!-- Bouton pour navigation mobile 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,9 +25,7 @@
               <li><a class="dropdown-item" href="#">Introduction Vue</a></li>
               <li><a class="dropdown-item" href="#">Setup Vue</a></li>
               <li><a class="dropdown-item" href="#">Installer et utiliser des librairies</a></li>
-              <router-link class="nav-link active" aria-current="page" to="/lesson-interpolation">
-                <li><a class="dropdown-item">Text Interpolation</a></li>
-              </router-link>
+              <li><router-link class="nav-link active" aria-current="page" to="/lesson-interpolation">Text Interpolation</router-link></li>
               <li><a class="dropdown-item" href="#">Méthodes et fonctions</a></li>
               <router-link class="nav-link active" aria-current="page" to="/lesson-inline-templating">
                 <li><a class="dropdown-item" href="#">Directive V-HTML (Inline Templating)</a></li>
