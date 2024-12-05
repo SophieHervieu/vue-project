@@ -52,6 +52,11 @@ const router = createRouter({
             name: 'Tp-Data-Binding',
             component: () => import('../views/tp/TpDataBinding.vue')
         },
+        {
+            path: '/tp-event-binding',
+            name: 'Tp-Event-Binding',
+            component: () => import('../views/tp/TpEventBinding.vue')
+        },
     ]
 });
 

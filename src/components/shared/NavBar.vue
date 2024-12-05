@@ -65,7 +65,7 @@
             <ul class="dropdown-menu dropdown-menu-end"> <!-- Alignement automatique -->
               <li><a class="dropdown-item" href="#">Liste des TP</a></li>
               <li><router-link class="nav-link active" aria-current="page" to="/tp-data-binding">TP-Data Binding</router-link></li>
-              <li><a class="dropdown-item" href="#">TP-Event Binding</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/tp-event-binding">TP-Event Binding</router-link></li>
               <li><a class="dropdown-item" href="#">TP-Reactivity</a></li>
               <li><a class="dropdown-item" href="#">TP-Dynamic Styling</a></li>
               <li><a class="dropdown-item" href="#">TP-Conditional & List Rendering</a></li>
