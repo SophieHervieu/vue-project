@@ -61,6 +61,11 @@ const router = createRouter({
             name: 'Exo-Watchers',
             component: () => import('../views/exo/Watchers.vue')
         },
+        {
+            path: '/exo-dynamic-styling',
+            name: 'Exo-Dynamic-Styling',
+            component: () => import('../views/exo/DynamicStyling.vue')
+        },
         //! ----------------------------TP Views routes ----------------------------
         {
             path: '/tp-data-binding',

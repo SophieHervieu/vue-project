@@ -49,7 +49,7 @@
               <li><router-link class="nav-link active" aria-current="page" to="/exo-two-way-data-binding">Two Way Data Binding (v-model)</router-link></li>
               <li><a class="dropdown-item" href="#">Computed Proporties</a></li>
               <li><router-link class="nav-link active" aria-current="page" to="/exo-watchers">Watchers</router-link></li>
-              <li><a class="dropdown-item" href="#">Dynamic Styling</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/exo-dynamic-styling">Dynamic Styling</router-link></li>
               <li><router-link class="nav-link active" aria-current="page" to="/exo-conditional-rendering">Conditional Rendering (v-if)</router-link></li>
               <li><a class="dropdown-item" href="#">List Rendering (v-for)</a></li>
               <li><a class="dropdown-item" href="#">Props</a></li>
