@@ -23,6 +23,6 @@ watch(leNombre, (newValue) => {
 
 <style scoped lang="css">
 .container {
-  height: 80.4vh;
+  min-height: 80.4vh !important;
 }
 </style>

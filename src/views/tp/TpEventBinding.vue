@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column">
+  <div class="mainDiv d-flex flex-column">
     <h1 class="mb-3">TP EventBinding</h1>
     <form>
       <input type="text" id="fname" name="fname" @keyup="capterInput($event)"><br>
@@ -43,4 +43,7 @@ const props = defineProps({
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 86.9vh !important;
+}
 </style>

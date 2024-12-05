@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainDiv">
     <h1 class="my-3">Dynamic Styling (inline)</h1>
     <div class="d-flex justify-content-center">
       <div class="card mx-3 mt-5"  :style="{ backgroundColor: firstCardColor }" @click="toggleColor('first')">
@@ -40,4 +40,7 @@ const toggleColor = (card) => {
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 84.8vh !important;
+}
 </style>

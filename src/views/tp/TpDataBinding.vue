@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainDiv">
     <h1 class="p-3">TP DataBinding - Profile User</h1>
     <div class="border rounded-3 bg-body-tertiary mx-auto d-flex flex-column align-items-center justify-content-center w-25">
       <img v-bind:src="image" class="card-img my-4">
@@ -27,6 +27,10 @@ function agePlusTen() {
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 86.9vh !important;
+}
+
 img {
   width: 200px;
   height: 200px;

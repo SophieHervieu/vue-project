@@ -38,6 +38,6 @@ const condition = computed(() => {
 
 <style scoped lang="css">
 .mainDiv {
-  height: 84.8vh;
+  min-height: 84.8vh !important;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainDiv">
     <h1 class="my-3">Le numéro gagnant</h1>
     <div class="d-flex justify-content-center my-5">
       <button @click="incrementOne()" class="bg-success">+1</button>
@@ -47,4 +47,7 @@ watch(numberToIncrement, (newValue) => {
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 84.8vh !important;
+}
 </style>

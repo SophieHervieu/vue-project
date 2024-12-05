@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary-subtle">
+  <div class="mainDiv bg-light">
     <p>{{ nomLivre }}</p>
     <p>{{ isAvailable }}</p>
     <p>{{ bunchOfNumbers }}</p>
@@ -25,4 +25,7 @@ const object = ref({name:"COOL", tel:"060503030"});
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 86.9vh !important;
+}
 </style>
