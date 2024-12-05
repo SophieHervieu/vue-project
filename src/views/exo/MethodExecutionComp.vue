@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainDiv">
     <h1 class="p-3">Utilisation des méthodes</h1>
     <p class="p-4 border bg-body-tertiary rounded-3">{{ random() }}</p>
   </div>
@@ -21,4 +21,7 @@ function random () {
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 86.9vh !important;
+}
 </style>

@@ -59,6 +59,10 @@ function toUpperCase(str) {
 
 <style scoped>
 /* Custom styles */
+.container {
+  min-height: 80vh !important;
+}
+
 .bg-dark {
   background-color: #343a40 !important;
 }

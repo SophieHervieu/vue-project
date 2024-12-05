@@ -2,7 +2,7 @@
   <div class="mainDiv">
     <h1 class="my-3">Dynamic Styling (inline)</h1>
     <div class="d-flex justify-content-center">
-      <div class="card mx-3 mt-5"  :style="{ backgroundColor: firstCardColor }" @click="toggleColor('first')">
+      <div class="card mx-3 mt-5" :style="{ backgroundColor: firstCardColor }" @click="toggleColor('first')">
         <div class="card-body">
           <p class="card-text">Card title</p>
         </div>

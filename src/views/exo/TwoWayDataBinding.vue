@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-primary-subtle p-3">
+  <div class="mainDiv bg-primary-subtle p-3">
     <div class="mb-3">
       <h5>Two Way Binding Event Binding Mode : Composition</h5>
       <p>v-on (keyup) + v-bind (value)</p>
@@ -30,4 +30,7 @@
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 86.9vh !important;
+}
 </style>

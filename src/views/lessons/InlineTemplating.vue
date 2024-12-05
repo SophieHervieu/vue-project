@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainDiv">
     <h5>Inline Templating Mode : Composition</h5>
     <!-- Avec String interpolation {{}} le code HTML n'est pas interprété par le navigateur -->
     <p class="text-center">{{unTemplateLivre}}</p>
@@ -14,4 +14,7 @@ const unTemplateLivre = ref('<h1>Les mémoires de Steven Seagal</h1>')
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 86.9vh !important;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainDiv">
     <h1 class="mb-5">EventBinding (gérer les événements)</h1>
     <div class="d-flex mx-auto align-items-center justify-content-center">
       <button v-on:click="decrement()" class="bg-danger me-2">-</button>
@@ -25,4 +25,7 @@ function decrement() {
 </script>
 
 <style scoped lang="css">
+.mainDiv {
+  min-height: 86.9vh !important;
+}
 </style>
