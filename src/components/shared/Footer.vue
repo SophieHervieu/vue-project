@@ -1,6 +1,6 @@
 <template>
   <div class="p-1 bg-dark text-white">
-    <h5>Merci de votre visite !</h5>
+    <h5>Vue is awesome!</h5>
   </div>
 </template>
 

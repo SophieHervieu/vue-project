@@ -46,6 +46,21 @@ const router = createRouter({
             name: 'Exo-Event-Binding',
             component: () => import('../views/exo/EventBinding.vue')
         },
+        {
+            path: '/exo-two-way-data-binding',
+            name: 'Exo-Two-Way-Data-Binding',
+            component: () => import('../views/exo/TwoWayDataBinding.vue')
+        },
+        {
+            path: '/exo-conditional-rendering',
+            name: 'Exo-Conditional-Rendering',
+            component: () => import('../views/exo/ConditionalRendering.vue')
+        },
+        {
+            path: '/exo-watchers',
+            name: 'Exo-Watchers',
+            component: () => import('../views/exo/Watchers.vue')
+        },
         //! ----------------------------TP Views routes ----------------------------
         {
             path: '/tp-data-binding',
@@ -56,6 +71,11 @@ const router = createRouter({
             path: '/tp-event-binding',
             name: 'Tp-Event-Binding',
             component: () => import('../views/tp/TpEventBinding.vue')
+        },
+        {
+            path: '/tp-reactivity',
+            name: 'Tp-Reactivity',
+            component: () => import('../views/tp/Reactivity.vue')
         },
     ]
 });

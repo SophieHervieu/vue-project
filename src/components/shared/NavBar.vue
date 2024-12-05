@@ -46,11 +46,11 @@
               <li><a class="dropdown-item" href="#">Inline Templating (v-html)</a></li>
               <li><a class="dropdown-item" href="#">Attribute Binding (v-bind)</a></li>
               <li><router-link class="nav-link active" aria-current="page" to="/exo-event-binding">Event Binding (v-on)</router-link></li>
-              <li><a class="dropdown-item" href="#">Two Way Data Binding (v-model)</a></li>
-              <li><a class="dropdown-item" href="#">Compûted Proporties</a></li>
-              <li><a class="dropdown-item" href="#">Watchers</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/exo-two-way-data-binding">Two Way Data Binding (v-model)</router-link></li>
+              <li><a class="dropdown-item" href="#">Computed Proporties</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/exo-watchers">Watchers</router-link></li>
               <li><a class="dropdown-item" href="#">Dynamic Styling</a></li>
-              <li><a class="dropdown-item" href="#">Conditional Rendering (v-if)</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/exo-conditional-rendering">Conditional Rendering (v-if)</router-link></li>
               <li><a class="dropdown-item" href="#">List Rendering (v-for)</a></li>
               <li><a class="dropdown-item" href="#">Props</a></li>
               <li><a class="dropdown-item" href="#">Props ultra Opti (v-bind des props + v-for) + Emit</a></li>
@@ -66,7 +66,7 @@
               <li><a class="dropdown-item" href="#">Liste des TP</a></li>
               <li><router-link class="nav-link active" aria-current="page" to="/tp-data-binding">TP-Data Binding</router-link></li>
               <li><router-link class="nav-link active" aria-current="page" to="/tp-event-binding">TP-Event Binding</router-link></li>
-              <li><a class="dropdown-item" href="#">TP-Reactivity</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/tp-reactivity">TP-Reactivity</router-link></li>
               <li><a class="dropdown-item" href="#">TP-Dynamic Styling</a></li>
               <li><a class="dropdown-item" href="#">TP-Conditional & List Rendering</a></li>
               <li><a class="dropdown-item" href="#">TP-Pokemon Game</a></li>

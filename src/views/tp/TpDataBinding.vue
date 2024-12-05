@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang='js'>
-import { computed, watch, onMounted, onUpdated, onBeforeUnmount, ref } from 'vue'
+import { ref } from 'vue'
 
 const fullName = ref('Dr. Mario');
 const image = ref('https://thispersondoesnotexist.com/');
@@ -23,46 +23,6 @@ function agePlusTen() {
   let result = age.value + 10;
   return result;
 }
-
-const props = defineProps({
-  // v-model
-  modelValue: {
-    default: '',
-  },
-});
-
-const emit = defineEmits({
-  // v-model event with validation
-  'update:modelValue': (value) => value !== null,
-});
-
-const value = computed({
-  get () {
-    return props.modelValue;
-  },
-  set (value) {
-    emit('update:modelValue', value);
-  },
-});
-
-const stopWatch = watch(
-  () => props.modelValue, async (_newValue, _oldValue) => {
-    // do something
-  },
-  {
-    immediate: true
-  }
-);
-
-onMounted(() => {
-});
-
-onUpdated(() => {
-});
-
-onBeforeUnmount(() => {
-  stopWatch();
-});
 
 </script>
 
