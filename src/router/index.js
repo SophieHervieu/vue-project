@@ -107,6 +107,11 @@ const router = createRouter({
             name: 'Tp-Dynamic-Styling',
             component: () => import('../views/tp/DynamicStyling.vue')
         },
+        {
+            path: '/tp-list-rendering',
+            name: 'Tp-List-Rendering',
+            component: () => import('../views/tp/TpListRendering.vue')
+        },
     ]
 });
 

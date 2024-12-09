@@ -70,7 +70,7 @@
               <li><router-link class="nav-link active" aria-current="page" to="/tp-event-binding">TP-Event Binding</router-link></li>
               <li><router-link class="nav-link active" aria-current="page" to="/tp-reactivity">TP-Reactivity</router-link></li>
               <li><router-link class="nav-link active" aria-current="page" to="/tp-dynamic-styling">TP-Dynamic Styling</router-link></li>
-              <li><a class="dropdown-item" href="#">TP-Conditional & List Rendering</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/tp-list-rendering">TP-Conditional & List Rendering</router-link></li>
               <li><a class="dropdown-item" href="#">TP-Pokemon Game</a></li>
               <li><a class="dropdown-item" href="#">TP-Component Communication</a></li>
               <!-- Reste des items -->
