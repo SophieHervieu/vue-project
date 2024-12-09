@@ -26,8 +26,9 @@
               <li><a class="dropdown-item" href="#">Setup Vue</a></li>
               <li><a class="dropdown-item" href="#">Installer et utiliser des librairies</a></li>
               <li><router-link class="nav-link active" aria-current="page" to="/lesson-interpolation">Text Interpolation</router-link></li>
-              <li><a class="dropdown-item" href="#">Méthodes et fonctions</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/lesson-methods">Méthodes et fonctions</router-link></li>
               <li><router-link class="nav-link active" aria-current="page" to="/lesson-inline-templating">Directive V-HTML (Inline Templating)</router-link></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/lesson-list-rendering">List Rendering</router-link></li>
               <li><a class="dropdown-item" href="#">Système de composants</a></li>
               <li><a class="dropdown-item" href="#">Création de composants</a></li>
               <li><a class="dropdown-item" href="#">Comp Comm Props</a></li>
@@ -52,7 +53,7 @@
               <li><router-link class="nav-link active" aria-current="page" to="/exo-dynamic-styling">Dynamic Styling</router-link></li>
               <li><router-link class="nav-link active" aria-current="page" to="/exo-dynamic-styling-class">Dynamic Styling (classes)</router-link></li>
               <li><router-link class="nav-link active" aria-current="page" to="/exo-conditional-rendering">Conditional Rendering (v-if)</router-link></li>
-              <li><a class="dropdown-item" href="#">List Rendering (v-for)</a></li>
+              <li><router-link class="nav-link active" aria-current="page" to="/exo-list-rendering">List Rendering (v-for)</router-link></li>
               <li><a class="dropdown-item" href="#">Props</a></li>
               <li><a class="dropdown-item" href="#">Props ultra Opti (v-bind des props + v-for) + Emit</a></li>
               <li><a class="dropdown-item" href="#">API Fetch</a></li>

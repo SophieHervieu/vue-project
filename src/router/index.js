@@ -30,6 +30,16 @@ const router = createRouter({
             name: 'Lesson-Attribute-Binding',
             component: () => import('../views/lessons/AttributeBinding.vue')
         },
+        {
+            path: '/lesson-list-rendering',
+            name: 'Lesson-List-Rendering',
+            component: () => import('../views/lessons/LessonListRendering.vue')
+        },
+        {
+            path: '/lesson-methods',
+            name: 'Lesson-Methods',
+            component: () => import('../views/lessons/LessonMethods.vue')
+        },
         //! ----------------------------Exo Views routes ----------------------------
         {
             path: '/exo-interpolation',
@@ -70,6 +80,11 @@ const router = createRouter({
             path: '/exo-dynamic-styling-class',
             name: 'Exo-Dynamic-Styling-Class',
             component: () => import('../views/exo/DynamicStylingClasses.vue')
+        },
+        {
+            path: '/exo-list-rendering',
+            name: 'Exo-List-Rendering',
+            component: () => import('../views/exo/ListRendering.vue')
         },
         //! ----------------------------TP Views routes ----------------------------
         {
