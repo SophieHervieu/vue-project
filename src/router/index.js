@@ -16,6 +16,17 @@ const router = createRouter({
         },
         //! ----------------------------Lessons Views routes ----------------------------
         {
+            path: '/lesson-router',
+            name: 'Lesson-Router',
+            component: () => import('../views/exo/LessonRouterView.vue')
+        },
+        {
+            path: '/details/:id',
+            name: 'Details',
+            component: () => import('../components/DetailsPage.vue'),
+            props: true
+        },
+        {
             path: '/lesson-interpolation',
             name: 'Lesson-Interpolation',
             component: () => import('../views/lessons/LessonTextInterpolation.vue')
@@ -39,6 +50,31 @@ const router = createRouter({
             path: '/lesson-methods',
             name: 'Lesson-Methods',
             component: () => import('../views/lessons/LessonMethods.vue')
+        },
+        {
+            path: '/lesson-event-binding',
+            name: 'Lesson-Event-Binding',
+            component: () => import('../views/lessons/LessonEventBindingView.vue')
+        },
+        {
+            path: '/lesson-two-way-binding',
+            name: 'Lesson-Two-Way-Binding',
+            component: () => import('../views/lessons/LessonTwoWayBinding.vue')
+        },
+        {
+            path: '/lesson-computed-properties',
+            name: 'Lesson-Computed-Properties',
+            component: () => import('../views/lessons/LessonComputedProperties.vue')
+        },
+        {
+            path: '/lesson-watchers',
+            name: 'Lesson-Watchers',
+            component: () => import('../views/lessons/LessonWatchers.vue')
+        },
+        {
+            path: '/lesson-dynamic-styling',
+            name: 'Lesson-Dynamic-Styling',
+            component: () => import('../views/lessons/LessonDynamicStyling.vue')
         },
         //! ----------------------------Exo Views routes ----------------------------
         {
@@ -85,6 +121,21 @@ const router = createRouter({
             path: '/exo-list-rendering',
             name: 'Exo-List-Rendering',
             component: () => import('../views/exo/ListRendering.vue')
+        },
+        {
+            path: '/exo-props',
+            name: 'Exo-Props',
+            component: () => import('../views/exo/Props.vue')
+        },
+        {
+            path: '/exo-props-emit',
+            name: 'Exo-Props-Emit',
+            component: () => import('../views/exo/AllFriends.vue')
+        },
+        {
+            path: '/exo-api-fetch',
+            name: 'Exo-Api-Fetch',
+            component: () => import('../views/exo/ApiFetch.vue')
         },
         //! ----------------------------TP Views routes ----------------------------
         {

@@ -4,7 +4,7 @@
     <div class="d-flex flex-column align-items-start ms-4">
       <h4 class="mb-3">La liste des courses 🛒🛍️</h4>
       <input v-on:keyup="updateParagraph" v-bind:value="inputContent" type="text" class="form-control mb-3 w-50" id="fname" name="fname">
-      <button @click="addGroceries" class="bg-success text-light mb-5">Ajouter à votre liste de courses</button>
+      <button @click="addGroceries" class="bg-success border-success text-light mb-5">Ajouter à votre liste de courses</button>
       <ul v-if="isListVisible" class="list-group">
         <li 
           v-for="(oneProduct, index) in groceries" 
@@ -15,7 +15,7 @@
         </li>
       </ul>
       <p v-if="groceries.length === 0" class="mt-3 alert alert-warning w-50">Votre liste est vide</p>
-      <button @click="toggleListVisibility" class="bg-info mt-4">{{ isListVisible ? 'Masquer liste' : 'Afficher liste' }}</button>
+      <button @click="toggleListVisibility" class="bg-info border-info mt-4">{{ isListVisible ? 'Masquer liste' : 'Afficher liste' }}</button>
     </div>
   </div>
 </template>
